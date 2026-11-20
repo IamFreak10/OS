@@ -1,0 +1,1258 @@
+[
+  {
+    "id": "1462",
+    "title": "Explain the differences between a monolithic kernel, a microkernel, and a hybri\u2026",
+    "marks": "4.00",
+    "exam": "1st Mid",
+    "session": "22-23",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1435",
+    "title": "Discuss the relationship between hardware, OS, system programs, and application\u2026",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1489",
+    "title": "What do you mean by an Operating System? What are the three main purposes of an\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1543",
+    "title": "What are the four essential managers of an operating system?",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1436",
+    "title": "What are the main components in the logical organization of a computer system?",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1490",
+    "title": "List five services provided by an operating system and explain how each creates\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1516",
+    "title": "Why do some systems store the operating system in firmware, while others store \u2026",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1437",
+    "title": "How does the distinction between kernel mode and user mode function as a rudime\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1466",
+    "title": "Explain the key differences between Batch Operating Systems, Multiprogramming O\u2026",
+    "marks": "6.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1491",
+    "title": "Give two reasons why caches are useful. What problems do they solve? What probl\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1517",
+    "title": "How does the distinction between kernel mode and user mode function as a rudime\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1545",
+    "title": "Given that main memory is composed of THREE page frame for public use and t\u2026",
+    "marks": "8.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1438",
+    "title": "Imagine a busy office where employees rely on computers for tasks like writing \u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1518",
+    "title": "List five services provided by an operating system and explain how each creates\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1439",
+    "title": "Define a process. What are the various states a process can be in during its li\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1467",
+    "title": "What is a process in an operating system, and how does it differ from a program\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1530",
+    "title": "Describe the following with examples:\n\ni) Paging\n\nii) TLB",
+    "marks": "10.00",
+    "exam": "1st Mid",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1440",
+    "title": "What is a Process Control Block (PCB)? Illustrate and explain its components wi\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1493",
+    "title": "Describe the differences among short-term, medium-term, and long-term schedulin\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1469",
+    "title": "Outline the lifecycle of a process, describing each state and the events that t\u2026",
+    "marks": "6.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1548",
+    "title": "What is deadlock? Describe about necessary conditions for deadlock characteriza\u2026",
+    "marks": "5.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4513",
+    "title": "Explain the concept of context switching. Why is it necessary and what overhead\u2026",
+    "marks": "3.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1442",
+    "title": "What is deadlock? Discuss various strategies used to prevent it from occurring.",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1495",
+    "title": "What are two differences between user-level threads and kernel-level threads? U\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1522",
+    "title": "Define demand paging and segmentation with examples.",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1443",
+    "title": "Illustrate how a Resource Allocation Graph (RAG) can be utilized to identify de\u2026",
+    "marks": "5.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1496",
+    "title": "What are the benefits and the disadvantages of synchronous and asynchronous com\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1523",
+    "title": "Draw storage device hierarchy.",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1497",
+    "title": "Explain the difference between preemptive and non-preemptive scheduling.",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1524",
+    "title": "Explain different threading models with sufficient diagrams.",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4516",
+    "title": "&amp;nbsp;Define CPU burst and I/O burst. How do these concepts influence CPU sched\u2026",
+    "marks": "4.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1498",
+    "title": "A multithreaded web server wishes to keep track of the number of requests it se\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1554",
+    "title": "What is deadlock? Describe about necessary conditions for deadlock characte\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1446",
+    "title": "Describe how semaphores are used for process synchronization. Illustrate with a\u2026",
+    "marks": "5.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1500",
+    "title": "Regarding the Producer-Consumer problem, explain the following term:\ni) Produc\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1526",
+    "title": "Illustrate how a binary semaphore can be used to implement mutual exclusion amo\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1555",
+    "title": "Draw and describe address translation architecture.",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1527",
+    "title": "Race conditions are possible in many computer systems. Consider a banking syste\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1531",
+    "title": "Consider a computer system that runs 5,000 jobs per month and has no deadlock-p\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1477",
+    "title": "Describe the difference between deadlock prevention, deadlock avoidance, and de\u2026",
+    "marks": "6.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1558",
+    "title": "What is page fault? Draw the steps in handling a page fault.",
+    "marks": "5.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1478",
+    "title": "Explain the difference between internal and external fragmentation.",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1533",
+    "title": "List three examples of deadlocks that are not related to a computer system envi\u2026",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1560",
+    "title": "Explain multistep processing of a user program.\n&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;n\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4522",
+    "title": "Explain the difference between deadlock prevention and deadlock avoidance. Give\u2026",
+    "marks": "3.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1479",
+    "title": "Define TLB with diagram. Given the following information about a system with a \u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1505",
+    "title": "In a system with a TLB, assume the following:\n\ni) the memory access time is 1\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1480",
+    "title": "What is paging in an operating system, and how does it manage memory? Explain t\u2026",
+    "marks": "5.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1535",
+    "title": "Consider a system in which a program can be separated into two parts: code and \u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1507",
+    "title": "What is paging? Consider a logical address space of 64 pages of 1,024 words\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1536",
+    "title": "What is paging? Consider a logical address space of 64 pages of 1,024 words\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1452",
+    "title": "Explain how paging and segmentation deal with the problem of fragmentation. Whi\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1453",
+    "title": "What is segmentation? Consider the following segment table:\n\n\n\nWhat are the\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1509",
+    "title": "Define virtual memory. How does it empower computing?",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1565",
+    "title": "Suppose that a disk drive has 5000 cylinders, numbered 0 to 4999. The drive is \u2026",
+    "marks": "12.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1454",
+    "title": "Describe the sequence of steps that occur when a virtual address is translated \u2026",
+    "marks": "5.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1510",
+    "title": "What does TLB stands for? Briefly explain its usage in operating system.",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1538",
+    "title": "What is fragmentation? Briefly explain different types of fragmentation in cont\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1484",
+    "title": "Briefly explain the purposes of system calls and system programs.",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4528",
+    "title": "A system uses demand paging and has:\n\n\n\tMemory access time = 200 ns\n\tTLB ac\u2026",
+    "marks": "3.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1456",
+    "title": "Describe optimal page replacement algorithm for the following reference string \u2026",
+    "marks": "5.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1457",
+    "title": "Define following terms: i) CPU Thrashing&amp;nbsp; &amp;nbsp;ii) RAID",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1486",
+    "title": "How do you calculate the disk access time? A disk is advertised with a seek tim\u2026",
+    "marks": "5.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1487",
+    "title": "A hard disk with 4 platters that has 2048 tracks for each platter and 1024 sect\u2026",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1459",
+    "title": "Consider the following set of process with CPU burst time.\n\n\n\nConsider the \u2026",
+    "marks": "5.00",
+    "exam": "1st Mid",
+    "session": "22-23",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1460",
+    "title": "Explain the different states of a process in the process life cycle.",
+    "marks": "4.00",
+    "exam": "1st Mid",
+    "session": "22-23",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1461",
+    "title": "Explain how the division of user mode and kernel mode ensures a primary level o\u2026",
+    "marks": "3.00",
+    "exam": "1st Mid",
+    "session": "22-23",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1463",
+    "title": "Compare and contrast classical synchronization problems such as the Producer-Co\u2026",
+    "marks": "4.00",
+    "exam": "1st Mid",
+    "session": "22-23",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1464",
+    "title": "What are the three main purposes of an operating system?",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1529",
+    "title": "Answer the following questions using the banker&amp;#39;s algorithm:\n\ni) What is \u2026",
+    "marks": "10.00",
+    "exam": "1st Mid",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1515",
+    "title": "We have stressed the need for an operating system to make efficient use of the \u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4508",
+    "title": "Describe the layered structure of an operating system and explain one advantage\u2026",
+    "marks": "5.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1465",
+    "title": "Compare Monolithic, Layered, Microkernel, and Modular operating system structur\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1544",
+    "title": "What is the relationship between turnaround time, CPU cycle time, and waiting t\u2026",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4509",
+    "title": "&amp;nbsp;What is system call? Briefly explain the steps taken when a user program \u2026",
+    "marks": "3.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "4510",
+    "title": "&amp;nbsp;Differentiate between monolithic, microkernel, and hybrid kernel architec\u2026",
+    "marks": "4.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1492",
+    "title": "Direct memory access is used for high-speed I/O devices in order to avoid incre\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1519",
+    "title": "Direct memory access is used for high-speed I/O devices in order to avoid incre\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1546",
+    "title": "What is a job scheduler? What is a process scheduler?",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4511",
+    "title": "&amp;nbsp;With the help of a diagram, describe the different states of a process in\u2026",
+    "marks": "4.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1468",
+    "title": "Explain the concept of process synchronization. Why is it necessary, and what p\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1520",
+    "title": "What are the two essential parts of a process? How is a process different from \u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1547",
+    "title": "As a process executes, it changes state. Complete to draw the state diagram of \u2026",
+    "marks": "5.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4512",
+    "title": "What is Process Control Block (PCB)? List and explain any four types of informa\u2026",
+    "marks": "5.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1441",
+    "title": "Consider the following set of processes, with the length of the CPU burst given\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1521",
+    "title": "Consider the following set of processes, with the length of the CPU burst given\u2026",
+    "marks": "6.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1494",
+    "title": "What do you know about process and process control block (PCB)? What are the st\u2026",
+    "marks": "6.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1470",
+    "title": "Describe process scheduling and the role of the scheduler in managing processes\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4514",
+    "title": "&amp;nbsp;Define CPU scheduling. Consider the following set of processes, with the \u2026",
+    "marks": "5.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1549",
+    "title": "Use the best-fit algorithm to allocate the memory blocks to the three arriving \u2026",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1471",
+    "title": "What is inter-process communication (IPC), and what are some common IPC mechani\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1550",
+    "title": "Use the first-fit algorithm to allocate the memory blocks to the three arriving\u2026",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4515",
+    "title": "Explain the concept of scheduling criteria. Describe any four common criteria u\u2026",
+    "marks": "3.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1444",
+    "title": "Define a thread. How does it differ from a process in terms of resource managem\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1472",
+    "title": "What is process synchronization, and why is it important in an operating system\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1551",
+    "title": "Use the next-fit algorithm to allocate the memory blocks to the three arriving \u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1552",
+    "title": "Worst-fit is an allocation algorithm that allocates the largest free block to a\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1553",
+    "title": "From the comparison of the allocation results, WHICH algorithm is the most effi\u2026",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1445",
+    "title": "What is process synchronization, and why is it necessary in a multiprogramming \u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1473",
+    "title": "Consider the following set of processes with their respective arrival times and\u2026",
+    "marks": "6.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1499",
+    "title": "What advantage is there in having different time-quantum sizes at different lev\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1525",
+    "title": "Provide two programming examples in which multithreading provides better perfor\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4517",
+    "title": "Define process synchronization. Why is it necessary in a multiprogramming envir\u2026",
+    "marks": "3.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1474",
+    "title": "Explain the difference between user-level threads and kernel-level threads. Wha\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4518",
+    "title": "&amp;nbsp;Describe the Producer&amp;ndash;Consumer problem and explain how semaphores c\u2026",
+    "marks": "4.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1447",
+    "title": "How does thread scheduling differ from process scheduling? Explain with example.",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1501",
+    "title": "The following processes are being scheduled using a Priority Scheduling-Preempt\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1475",
+    "title": "Define the following term:\ni) Short-term scheduler   ii) CPU dispatcher",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1556",
+    "title": "Briefly describe Banker&amp;#39;s algorithm.",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4519",
+    "title": "Two processes, P1 and P2, share a common variable counter initialized to 0. Bot\u2026",
+    "marks": "5.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1528",
+    "title": "Why do some systems store the operating system in firmware, while others store \u2026",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1448",
+    "title": "In a university&amp;#39;s computer lab, two students, Alice and Bob, are writing pa\u2026",
+    "marks": "12.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1476",
+    "title": "Consider a system with two types of resources (R1, R2) and three processes (P1,\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1502",
+    "title": "Suppose that a system is in an unsafe state. Show that it is possible for the p\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1557",
+    "title": "Draw storage device hierarchy.",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4520",
+    "title": "Describe the Resource Allocation Graph (RAG) method for detecting deadlocks. Ho\u2026",
+    "marks": "4.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1503",
+    "title": "Consider the following snapshot of a system:\n\n\n\n\n\nAnswer the following qu\u2026",
+    "marks": "6.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1532",
+    "title": "Consider the following snapshot of a system where there are five processes PO t\u2026",
+    "marks": "6.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4521",
+    "title": "Consider the following system with 3 processes (P1, P2, P3) and 4 identical res\u2026",
+    "marks": "5.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1504",
+    "title": "List two deadlock detection mechanisms. Construct the wait-for graph that corre\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1449",
+    "title": "Compare first-fit, best-fit, and worst-fit memory allocation strategies in term\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1561",
+    "title": "Identify all of the deadlocked processes.",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1534",
+    "title": "Given the following system:\n\n-Total of four processes\n\n-Total of three \u2026",
+    "marks": "5.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4523",
+    "title": "A system has memory blocks of sizes:\n100 KB, 500 KB, 200 KB, 300 KB, 600 KB\n\n\u2026",
+    "marks": "4.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1450",
+    "title": "Consider a system with 1000 KB of memory and processes that require varying siz\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1562",
+    "title": "Can the deadlock be resolved without selecting a victim?",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1506",
+    "title": "Given memory partition of 100 KB, 500 KB, 200 KB and 600 KB (in order), how wou\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4524",
+    "title": "&amp;nbsp;A system uses paging for memory management.\nThe logical address space of\u2026",
+    "marks": "6.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1451",
+    "title": "Define internal and external fragmentation with necessary diagrams.",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1481",
+    "title": "Given memory partition of 100KB, 500KB, 200KB, 300K and 600KB (in order), how w\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1563",
+    "title": "Which requests by the three processes for resources from R2 would you satisfy t\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4525",
+    "title": "A system has a memory access time of 100 ns.\nThe TLB hit ratio is 80%, and TLB\u2026",
+    "marks": "2.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1564",
+    "title": "Conversely, which requests by the three processes for resources from R2 would y\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1508",
+    "title": "Explain the difference between internal and external fragmentation.",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1482",
+    "title": "Consider the following page reference string:\n\n7, 0, 1, 2, 0, 3, 0, 4, 2, 3, \u2026",
+    "marks": "6.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4526",
+    "title": "Define segmentation. A process has segments with base addresses as follows:\n\n\u2026",
+    "marks": "4.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1537",
+    "title": "Given six memory partitions of 300 KB, 600 KB, 350 KB, 200 KB, 750 KB, and 125 \u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1483",
+    "title": "Explain the differences between segmentation and paging in the context of virtu\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4527",
+    "title": "Describe the concept of a Translation Lookaside Buffer (TLB). How does it impro\u2026",
+    "marks": "5.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1455",
+    "title": "&amp;nbsp;Define page fault. What are the actions taken by the operating system whe\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1511",
+    "title": "What is fragmentation? Consider the following segment table:\n\n\n\nWhat are th\u2026",
+    "marks": "5.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1539",
+    "title": "What is fragmentation? Consider the following segment table:\n\n\n\nWhat are th\u2026",
+    "marks": "5.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1566",
+    "title": "Draw Gantt Charts for illustrating five scheduling algorithms which are First-C\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1485",
+    "title": "Explain the moving-head disk mechanism in operating systems. How does the read/\u2026",
+    "marks": "5.00",
+    "exam": "Final",
+    "session": "20-21",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1512",
+    "title": "Consider the following page reference string:\n\n2, 3, 2, 1, 5, 2, 4, 5, 3,\u2026",
+    "marks": "6.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1540",
+    "title": "Consider the following page reference string:\n\n1, 2, 3, 4, 2, 1, 5, 6, 2, 1, \u2026",
+    "marks": "6.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4529",
+    "title": "Describe LRU (Least Recently Used) algorithm for the following reference string\u2026",
+    "marks": "5.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1567",
+    "title": "Calculate the turnaround time for each process based on the five scheduling alg\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1513",
+    "title": "Suppose that a disk drive has 200 cylinders, numbered 0 to 199. The drive is cu\u2026",
+    "marks": "4.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1541",
+    "title": "Define following terms:\ni) Thrashing\nii) RAID",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4530",
+    "title": "Define the following terms:\ni) CPU Thrashing\nii) RAID",
+    "marks": "4.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1458",
+    "title": "Explain different types of CPU schedulers.",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "21-22",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1568",
+    "title": "Calculate the waiting time for each process based on the four scheduling algori\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1514",
+    "title": "Define following terms:\n\ni) Thrashing\n\nii) RAID",
+    "marks": "2.00",
+    "exam": "Final",
+    "session": "19-20",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "1542",
+    "title": "Explain why SSDs often use an FCFS disk-scheduling algorithm.",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "18-19",
+    "teacher": "Md. Rashid Al Asif"
+  },
+  {
+    "id": "4531",
+    "title": "Define page replacement in virtual memory. Why is it necessary?",
+    "marks": "3.00",
+    "exam": "",
+    "session": "",
+    "teacher": ""
+  },
+  {
+    "id": "1569",
+    "title": "Calculate the average turnaround time and the average waiting time for each pro\u2026",
+    "marks": "3.00",
+    "exam": "Final",
+    "session": "17-18",
+    "teacher": "Md. Rashid Al Asif"
+  }
+]

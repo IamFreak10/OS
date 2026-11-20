@@ -1,0 +1,404 @@
+[
+  {
+    "id": "941",
+    "title": "2nd Mid (23-24)",
+    "teacher": "Md. Rashid Al Asif",
+    "date": "Unknown",
+    "direct_status": 200,
+    "direct_content_type": "image/jpeg",
+    "direct_len": "140847",
+    "redirect_location": "",
+    "drive_links": [],
+    "iframe_srcs": [],
+    "img_srcs": [],
+    "type": "direct_image",
+    "file_url": "https://www.onebyzeroedu.com/university/resource/question/941/"
+  },
+  {
+    "id": "921",
+    "title": "2nd Mid (23-24)",
+    "teacher": "Md. Rashid Al Asif",
+    "date": "Nov. 8, 2026",
+    "direct_status": 200,
+    "direct_content_type": "image/jpeg",
+    "direct_len": "369159",
+    "redirect_location": "",
+    "drive_links": [],
+    "iframe_srcs": [],
+    "img_srcs": [],
+    "type": "direct_image",
+    "file_url": "https://www.onebyzeroedu.com/university/resource/question/921/"
+  },
+  {
+    "id": "919",
+    "title": "1st Mid (23-24)",
+    "teacher": "Md. Rashid Al Asif",
+    "date": "Nov. 8, 2026",
+    "direct_status": 200,
+    "direct_content_type": "image/jpeg",
+    "direct_len": "1256977",
+    "redirect_location": "",
+    "drive_links": [],
+    "iframe_srcs": [],
+    "img_srcs": [],
+    "type": "direct_image",
+    "file_url": "https://www.onebyzeroedu.com/university/resource/question/919/"
+  },
+  {
+    "id": "771",
+    "title": "None (None)",
+    "teacher": "Unknown",
+    "date": "Unknown",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/resource/question/771/iframe/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1orTtGP0P1ONzZlLIYX5_nFsE4Wo0jR22/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1orTtGP0P1ONzZlLIYX5_nFsE4Wo0jR22/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/IMG-20260813-WA0001.jpg"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "714",
+    "title": "1st Mid (22-23)",
+    "teacher": "Md. Rashid Al Asif",
+    "date": "Sept. 22, 2025",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/question_detail/714/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1oHVCgOf7pg4TlycY7bH-NcOwB0MPkHNv/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1oHVCgOf7pg4TlycY7bH-NcOwB0MPkHNv/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/default.png"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "650",
+    "title": "Final (21-22)",
+    "teacher": "Md. Rashid Al Asif",
+    "date": "Aug. 4, 2025",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/question_detail/650/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1TOzQFy1vPq2FCatQfAmlPyenFs-mnOBr/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1TOzQFy1vPq2FCatQfAmlPyenFs-mnOBr/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/default.png"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "649",
+    "title": "2nd Mid (21-22)",
+    "teacher": "Unknown",
+    "date": "July 9, 2025",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/resource/question/649/iframe/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1Zfs2JAW4xBMNj9F0GVAqRJ0Lq_fOAn_S/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1Zfs2JAW4xBMNj9F0GVAqRJ0Lq_fOAn_S/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/cse_Rayhan.jpg"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "637",
+    "title": "1st Mid (21-22)",
+    "teacher": "Md. Rashid Al Asif",
+    "date": "July 9, 2025",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/question_detail/637/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1WZ0LY1WJ_RocaoxvbIaYjR50bBpf4vx6/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1WZ0LY1WJ_RocaoxvbIaYjR50bBpf4vx6/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/default.png"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "494",
+    "title": "Final (20-21)",
+    "teacher": "Md. Rashid Al Asif",
+    "date": "Nov. 11, 2024",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/question_detail/494/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1yB8knhnrehjL6_PEnbeVaptTABeW9csH/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1yB8knhnrehjL6_PEnbeVaptTABeW9csH/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/IMG_20220117_192324-01.jpeg"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "471",
+    "title": "2nd Mid (20-21)",
+    "teacher": "Md. Rashid Al Asif",
+    "date": "Oct. 2, 2024",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/resource/question/471/iframe/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1UkSyI6Ils0wiFpoWpMj1CxTEcDPHTiyY/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1UkSyI6Ils0wiFpoWpMj1CxTEcDPHTiyY/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/IMG_20231218_132428.jpg"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "423",
+    "title": "Lab Final (17-18)",
+    "teacher": "Unknown",
+    "date": "Unknown",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/resource/question/423/iframe/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1djwLM6n7dB_0hG60Hlwcq8vhE-cajcVS/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1djwLM6n7dB_0hG60Hlwcq8vhE-cajcVS/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/logo_with_background_Ncw4Anr.png"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "422",
+    "title": "Lab Final (18-19)",
+    "teacher": "Unknown",
+    "date": "Unknown",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/resource/question/422/iframe/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1VKrq7H6hdHF0nhYLjFqwjPYV4mAzqY7b/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1VKrq7H6hdHF0nhYLjFqwjPYV4mAzqY7b/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/logo_with_background_Ncw4Anr.png"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "421",
+    "title": "Final (18-19)",
+    "teacher": "Md. Rashid Al Asif",
+    "date": "Sept. 22, 2022",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/question_detail/421/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1MpjRc97cSEptZvcZqIcBHQIfKY8DBM1B/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1MpjRc97cSEptZvcZqIcBHQIfKY8DBM1B/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/logo_with_background_Ncw4Anr.png"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "420",
+    "title": "Final (17-18)",
+    "teacher": "Md. Rashid Al Asif",
+    "date": "Unknown",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/question_detail/420/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1y29NnrpoF6BhaNOfb8mm_raUyohP1DXr/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1y29NnrpoF6BhaNOfb8mm_raUyohP1DXr/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/logo_with_background_Ncw4Anr.png"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "419",
+    "title": "1st Mid (18-19)",
+    "teacher": "Unknown",
+    "date": "Unknown",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/resource/question/419/iframe/",
+    "drive_links": [
+      "https://drive.google.com/file/d/18DguX_IR6FwCZO8AmitA8eAZWmYdklsQ/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/18DguX_IR6FwCZO8AmitA8eAZWmYdklsQ/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/logo_with_background_Ncw4Anr.png"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "418",
+    "title": "1st Mid (17-18)",
+    "teacher": "Unknown",
+    "date": "Unknown",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/resource/question/418/iframe/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1WLK0aVIAqx760pEB26MEijmUSIaNQ5SF/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1WLK0aVIAqx760pEB26MEijmUSIaNQ5SF/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/logo_with_background_Ncw4Anr.png"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "417",
+    "title": "2nd Mid (18-19)",
+    "teacher": "Md. Rashid Al Asif",
+    "date": "Aug. 28, 2022",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/resource/question/417/iframe/",
+    "drive_links": [
+      "https://drive.google.com/file/d/10IYJtuvwxz66APT6oMwiJj5tkcaaHDIV/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/10IYJtuvwxz66APT6oMwiJj5tkcaaHDIV/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/logo_with_background_Ncw4Anr.png"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "416",
+    "title": "1st Mid (19-20)",
+    "teacher": "Unknown",
+    "date": "Unknown",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/resource/question/416/iframe/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1Q9-OUfExcF3I_g5oyN1jCrIxY4hnU-qk/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1Q9-OUfExcF3I_g5oyN1jCrIxY4hnU-qk/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/logo_with_background_Ncw4Anr.png"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "414",
+    "title": "Final (19-20)",
+    "teacher": "Md. Rashid Al Asif",
+    "date": "Unknown",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/question_detail/414/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1VUKkgPdj-copWG4DQfgaQH_vZWKAuk95/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1VUKkgPdj-copWG4DQfgaQH_vZWKAuk95/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/logo_with_background_Ncw4Anr.png"
+    ],
+    "iframe_status": 200
+  },
+  {
+    "id": "413",
+    "title": "1st Mid (20-21)",
+    "teacher": "Unknown",
+    "date": "Unknown",
+    "direct_status": 302,
+    "direct_content_type": "text/html; charset=utf-8",
+    "direct_len": "",
+    "redirect_location": "/university/resource/question/413/iframe/",
+    "drive_links": [
+      "https://drive.google.com/file/d/1YR-hazoKFNBr6hJn-Plw7aUAMCNXxB6T/preview"
+    ],
+    "iframe_srcs": [
+      "https://drive.google.com/file/d/1YR-hazoKFNBr6hJn-Plw7aUAMCNXxB6T/preview"
+    ],
+    "img_srcs": [
+      "/static/navbar-logo_onebyzero.png",
+      "/media/profile_images/logo_with_background_Ncw4Anr.png"
+    ],
+    "iframe_status": 200
+  }
+]

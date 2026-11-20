@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE-2207: Operating System — Question Bank & Preparation Hub | University of Barishal</title>
+  <meta name="description" content="Complete Operating System (CSE-2207) question archive, topic-wise redundancy analysis, and semester final preparation guide for University of Barishal.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              200: '#c7d2fe',
+              300: '#a5b4fc',
+              400: '#818cf8',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              800: '#3730a3',
+              900: '#312e81',
+              950: '#1e1b4b',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            mono: ['JetBrains Mono', 'Fira Code', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+  <!-- Marked.js -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <style>
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgba(148, 163, 184, 0.3); border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(148, 163, 184, 0.5); }
+    
+    /* Markdown Prose Styling */
+    .markdown-body {
+      color: #cbd5e1;
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+    .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4 {
+      color: #f8fafc;
+      font-weight: 700;
+      scroll-margin-top: 5.5rem;
+    }
+    .markdown-body h1 { font-size: 1.875rem; margin-top: 1.5rem; margin-bottom: 1rem; border-bottom: 1px solid #334155; padding-bottom: 0.5rem; }
+    .markdown-body h2 { font-size: 1.5rem; margin-top: 2rem; margin-bottom: 0.75rem; border-bottom: 1px solid #1e293b; padding-bottom: 0.35rem; color: #818cf8; }
+    .markdown-body h3 { font-size: 1.25rem; margin-top: 1.75rem; margin-bottom: 0.5rem; color: #38bdf8; }
+    .markdown-body h4 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.4rem; color: #a5b4fc; }
+    .markdown-body p { margin-bottom: 0.85rem; }
+    .markdown-body ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1rem; }
+    .markdown-body li { margin-bottom: 0.4rem; }
+    .markdown-body blockquote {
+      border-left: 4px solid #6366f1;
+      background: rgba(30, 41, 59, 0.6);
+      padding: 0.75rem 1rem;
+      border-radius: 0 0.5rem 0.5rem 0;
+      margin-bottom: 1rem;
+      color: #94a3b8;
+    }
+    .markdown-body a {
+      color: #818cf8;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      transition: color 0.15s ease;
+    }
+    .markdown-body a:hover {
+      color: #c7d2fe;
+    }
+    .markdown-body strong { color: #f1f5f9; font-weight: 600; }
+    .markdown-body code {
+      background: #1e293b;
+      color: #f472b6;
+      padding: 0.2rem 0.4rem;
+      border-radius: 0.25rem;
+      font-size: 0.875rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .markdown-body pre {
+      background: #0f172a;
+      border: 1px solid #334155;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      overflow-x: auto;
+      margin-bottom: 1rem;
+    }
+    .markdown-body pre code {
+      background: transparent;
+      color: #e2e8f0;
+      padding: 0;
+    }
+    .markdown-body hr {
+      border: 0;
+      border-top: 1px solid #334155;
+      margin: 2rem 0;
+    }
+
+    /* Light mode markdown overrides */
+    html:not(.dark) .markdown-body { color: #334155; }
+    html:not(.dark) .markdown-body h1, html:not(.dark) .markdown-body h2, html:not(.dark) .markdown-body h3, html:not(.dark) .markdown-body h4 { color: #0f172a; }
+    html:not(.dark) .markdown-body h2 { color: #4f46e5; border-bottom-color: #e2e8f0; }
+    html:not(.dark) .markdown-body h3 { color: #0284c7; }
+    html:not(.dark) .markdown-body h4 { color: #4338ca; }
+    html:not(.dark) .markdown-body strong { color: #0f172a; }
+    html:not(.dark) .markdown-body blockquote { background: #f8fafc; border-left-color: #4f46e5; color: #475569; }
+    html:not(.dark) .markdown-body code { background: #f1f5f9; color: #db2777; }
+    html:not(.dark) .markdown-body pre { background: #f8fafc; border-color: #e2e8f0; }
+    html:not(.dark) .markdown-body pre code { color: #1e293b; }
+    html:not(.dark) .markdown-body hr { border-top-color: #e2e8f0; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen transition-colors duration-200">
+
+  <!-- Top Sticky Navigation Bar -->
+  <header class="sticky top-0 z-40 backdrop-blur-md bg-slate-900/90 border-b border-slate-800 transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        
+        <!-- Brand & University Info -->
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-400 flex items-center justify-center text-white shadow-lg shadow-brand-500/25">
+            <i class="fa-solid fa-microchip text-lg"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="font-bold text-lg tracking-tight text-white flex items-center gap-1.5">
+                OS Hub <span class="text-xs px-2 py-0.5 rounded-full bg-brand-500/20 text-brand-300 border border-brand-500/30 font-mono">CSE-2207</span>
+              </span>
+            </div>
+            <p class="text-xs text-slate-400 hidden sm:block">Department of CSE &bull; University of Barishal</p>
+          </div>
+        </div>
+
+        <!-- Desktop Navigation Tabs -->
+        <nav class="hidden md:flex items-center gap-1 bg-slate-800/60 p-1 rounded-xl border border-slate-700/60 text-sm font-medium">
+          <button onclick="switchTab('guide')" id="nav-guide" class="nav-tab px-4 py-2 rounded-lg transition-all flex items-center gap-2 bg-brand-600 text-white shadow-sm">
+            <i class="fa-solid fa-book-open text-xs"></i>
+            <span>Guide & Analysis</span>
+          </button>
+          <button onclick="switchTab('papers')" id="nav-papers" class="nav-tab px-4 py-2 rounded-lg transition-all flex items-center gap-2 text-slate-400 hover:text-white hover:bg-slate-700/50">
+            <i class="fa-solid fa-file-pdf text-xs"></i>
+            <span>Question Papers</span>
+            <span class="text-[10px] bg-slate-700 text-slate-300 px-1.5 py-0.5 rounded-full">20</span>
+          </button>
+          <button onclick="switchTab('questions')" id="nav-questions" class="nav-tab px-4 py-2 rounded-lg transition-all flex items-center gap-2 text-slate-400 hover:text-white hover:bg-slate-700/50">
+            <i class="fa-solid fa-layer-group text-xs"></i>
+            <span>Question Bank</span>
+            <span class="text-[10px] bg-slate-700 text-slate-300 px-1.5 py-0.5 rounded-full">157</span>
+          </button>
+          <button onclick="switchTab('top10')" id="nav-top10" class="nav-tab px-4 py-2 rounded-lg transition-all flex items-center gap-2 text-slate-400 hover:text-white hover:bg-slate-700/50">
+            <i class="fa-solid fa-trophy text-xs text-amber-400"></i>
+            <span>Top 10 Topics</span>
+          </button>
+        </nav>
+
+        <!-- Right Action Controls -->
+        <div class="flex items-center gap-2">
+          <!-- Theme Toggle -->
+          <button onclick="toggleTheme()" class="w-9 h-9 rounded-lg bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 flex items-center justify-center border border-slate-700 transition" title="Toggle Light/Dark Theme">
+            <i class="fa-solid fa-sun text-sm hidden dark:block text-amber-400"></i>
+            <i class="fa-solid fa-moon text-sm block dark:hidden text-indigo-400"></i>
+          </button>
+
+          <!-- GitHub Source Link -->
+          <a href="https://github.com/IamFreak10/Questions" target="_blank" rel="noopener noreferrer" class="h-9 px-3 rounded-lg bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 border border-slate-700 flex items-center gap-2 text-xs font-medium transition" title="View on GitHub">
+            <i class="fa-brands fa-github text-sm"></i>
+            <span class="hidden sm:inline">GitHub</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Bar -->
+    <div class="md:hidden border-t border-slate-800 px-2 py-2 flex items-center justify-around bg-slate-900/95 text-xs font-medium">
+      <button onclick="switchTab('guide')" id="mob-guide" class="mob-tab flex flex-col items-center gap-1 py-1 px-3 text-brand-400 font-semibold">
+        <i class="fa-solid fa-book-open"></i>
+        <span>Guide</span>
+      </button>
+      <button onclick="switchTab('papers')" id="mob-papers" class="mob-tab flex flex-col items-center gap-1 py-1 px-3 text-slate-400">
+        <i class="fa-solid fa-file-pdf"></i>
+        <span>Papers (20)</span>
+      </button>
+      <button onclick="switchTab('questions')" id="mob-questions" class="mob-tab flex flex-col items-center gap-1 py-1 px-3 text-slate-400">
+        <i class="fa-solid fa-layer-group"></i>
+        <span>Bank (157)</span>
+      </button>
+      <button onclick="switchTab('top10')" id="mob-top10" class="mob-tab flex flex-col items-center gap-1 py-1 px-3 text-slate-400">
+        <i class="fa-solid fa-trophy text-amber-400"></i>
+        <span>Top 10</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+
+    <!-- ========================================== -->
+    <!-- TAB 1: GUIDE & MARKDOWN ANALYSIS (README) -->
+    <!-- ========================================== -->
+    <section id="tab-guide" class="tab-pane block">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        
+        <!-- Table of Contents Sidebar (Desktop) -->
+        <aside class="hidden lg:block lg:col-span-3 sticky top-24 bg-slate-900/60 p-4 rounded-2xl border border-slate-800 backdrop-blur-sm max-h-[calc(100vh-8rem)] overflow-y-auto">
+          <div class="flex items-center gap-2 pb-3 mb-3 border-b border-slate-800 text-xs font-bold uppercase tracking-wider text-slate-400">
+            <i class="fa-solid fa-list-ul text-brand-400"></i>
+            <span>Quick Navigation</span>
+          </div>
+          <nav id="toc-nav" class="space-y-1 text-xs text-slate-400">
+            <!-- Dynamically populated or static links -->
+            <a href="#syllabus-outline-covered-chapters-1--10" class="block py-1.5 px-2.5 rounded-md hover:bg-slate-800 hover:text-white transition">📑 Syllabus Outline</a>
+            <div class="pt-2 pb-1 text-[11px] font-semibold text-slate-500 uppercase tracking-wider">Chapters (1–10)</div>
+            <a href="#chapter-1-introduction-to-operating-systems" class="block py-1 px-2.5 rounded-md hover:bg-slate-800 hover:text-white transition truncate">Ch 1: Introduction to OS</a>
+            <a href="#chapter-2-operating-system-structures--system-calls" class="block py-1 px-2.5 rounded-md hover:bg-slate-800 hover:text-white transition truncate">Ch 2: OS Structures & Syscalls</a>
+            <a href="#chapter-3-processes--process-management" class="block py-1 px-2.5 rounded-md hover:bg-slate-800 hover:text-white transition truncate">Ch 3: Processes & PCB</a>
+            <a href="#chapter-4-threads--concurrency" class="block py-1 px-2.5 rounded-md hover:bg-slate-800 hover:text-white transition truncate">Ch 4: Threads & Concurrency</a>
+            <a href="#chapter-5-cpu-scheduling" class="block py-1 px-2.5 rounded-md hover:bg-slate-800 hover:text-white transition truncate">Ch 5: CPU Scheduling</a>
+            <a href="#chapter-6-process-synchronization--classic-problems" class="block py-1 px-2.5 rounded-md hover:bg-slate-800 hover:text-white transition truncate">Ch 6: Synchronization</a>
+            <a href="#chapter-7-deadlocks" class="block py-1 px-2.5 rounded-md hover:bg-slate-800 hover:text-white transition truncate">Ch 7: Deadlocks</a>
+            <a href="#chapter-8-main-memory-management" class="block py-1 px-2.5 rounded-md hover:bg-slate-800 hover:text-white transition truncate">Ch 8: Memory & Paging</a>
+            <a href="#chapter-9-virtual-memory--page-replacement" class="block py-1 px-2.5 rounded-md hover:bg-slate-800 hover:text-white transition truncate">Ch 9: Virtual Memory</a>
+            <a href="#chapter-10-storage-management-disk-scheduling--raid" class="block py-1 px-2.5 rounded-md hover:bg-slate-800 hover:text-white transition truncate">Ch 10: Storage & Disk</a>
+            <div class="pt-2 pb-1 text-[11px] font-semibold text-slate-500 uppercase tracking-wider">High-Yield Review</div>
+            <a href="#top-10-guaranteed-exam-topics-for-semester-final" class="block py-1.5 px-2.5 rounded-md hover:bg-slate-800 text-amber-400 font-semibold transition truncate">🏆 Top 10 Guaranteed Topics</a>
+          </nav>
+        </aside>
+
+        <!-- Rendered README Content -->
+        <div class="lg:col-span-9 bg-slate-900/40 p-6 sm:p-10 rounded-2xl border border-slate-800/80 shadow-xl">
+          <div id="readme-container" class="markdown-body">
+            <!-- Rendered by Marked.js and KaTeX on init -->
+            <div class="flex items-center justify-center py-20 text-slate-500 gap-3">
+              <i class="fa-solid fa-circle-notch fa-spin text-xl text-brand-500"></i>
+              <span>Loading preparation guide & analysis...</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 2: QUESTION PAPERS (PDF ARCHIVE)     -->
+    <!-- ========================================== -->
+    <section id="tab-papers" class="tab-pane hidden">
+      <!-- Section Header -->
+      <div class="mb-8">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight flex items-center gap-2.5">
+              <span>Original Question Papers Archive</span>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-brand-500/20 text-brand-300 border border-brand-500/30 font-normal">20 PDFs</span>
+            </h2>
+            <p class="text-sm text-slate-400 mt-1">Official Semester Final, Midterm, and Lab Final question papers across all sessions (2017–2018 to 2023–2024).</p>
+          </div>
+
+          <!-- Filter Pills -->
+          <div class="flex flex-wrap items-center gap-2">
+            <button onclick="filterPapers('all')" class="paper-filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-brand-600 text-white" data-cat="all">All (20)</button>
+            <button onclick="filterPapers('Final')" class="paper-filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700" data-cat="Final">Final (6)</button>
+            <button onclick="filterPapers('Mid')" class="paper-filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700" data-cat="Mid">Midterm (12)</button>
+            <button onclick="filterPapers('Lab_Final')" class="paper-filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700" data-cat="Lab_Final">Lab Final (2)</button>
+          </div>
+        </div>
+
+        <!-- Secondary Controls (Session Filter & Search) -->
+        <div class="mt-4 flex flex-col sm:flex-row items-center gap-3">
+          <div class="relative w-full sm:w-72">
+            <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
+            <input type="text" id="paper-search-input" oninput="renderPapers()" placeholder="Search exam title or teacher..." class="w-full pl-9 pr-3 py-2 bg-slate-900 border border-slate-800 rounded-xl text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500">
+          </div>
+          <select id="paper-session-select" onchange="renderPapers()" class="w-full sm:w-48 py-2 px-3 bg-slate-900 border border-slate-800 rounded-xl text-xs text-slate-200 focus:outline-none focus:border-brand-500">
+            <option value="all">All Sessions</option>
+            <option value="2023-2024">Session 2023–2024</option>
+            <option value="2022-2023">Session 2022–2023</option>
+            <option value="2021-2022">Session 2021–2022</option>
+            <option value="2020-2021">Session 2020–2021</option>
+            <option value="2019-2020">Session 2019–2020</option>
+            <option value="2018-2019">Session 2018–2019</option>
+            <option value="2017-2018">Session 2017–2018</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Papers Grid -->
+      <div id="papers-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 3: QUESTION BANK (157 QUESTIONS)      -->
+    <!-- ========================================== -->
+    <section id="tab-questions" class="tab-pane hidden">
+      <!-- Header -->
+      <div class="mb-6">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight flex items-center gap-2.5">
+          <span>Searchable Question Bank</span>
+          <span class="text-xs px-2.5 py-1 rounded-full bg-brand-500/20 text-brand-300 border border-brand-500/30 font-normal">157 Questions</span>
+        </h2>
+        <p class="text-sm text-slate-400 mt-1">Every digitized question from past University of Barishal OS examinations, indexed by topic, session, and marks.</p>
+      </div>
+
+      <!-- Live Search & Filters Filter Bar -->
+      <div class="bg-slate-900/80 p-4 rounded-2xl border border-slate-800/80 shadow-lg mb-6 space-y-3">
+        <!-- Search Bar -->
+        <div class="relative">
+          <i class="fa-solid fa-search absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
+          <input type="text" id="qbank-search" oninput="renderQuestions()" placeholder="Search questions (e.g. 'Banker', 'Gantt', 'monolithic', 'TLB', 'fragmentation', 'Alice')..." class="w-full pl-10 pr-4 py-2.5 bg-slate-950/80 border border-slate-700/80 rounded-xl text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500">
+        </div>
+
+        <!-- Filter Selectors -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          <!-- Chapter Filter -->
+          <div>
+            <label class="block text-[11px] font-semibold text-slate-400 mb-1">CHAPTER / TOPIC</label>
+            <select id="qbank-chapter" onchange="renderQuestions()" class="w-full py-1.5 px-3 bg-slate-950 border border-slate-700/80 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-brand-500">
+              <option value="all">All Chapters (1–10)</option>
+              <option value="1">Ch 1: Introduction to OS</option>
+              <option value="2">Ch 2: OS Structures & Syscalls</option>
+              <option value="3">Ch 3: Processes & PCB</option>
+              <option value="4">Ch 4: Threads & Concurrency</option>
+              <option value="5">Ch 5: CPU Scheduling</option>
+              <option value="6">Ch 6: Process Synchronization</option>
+              <option value="7">Ch 7: Deadlocks</option>
+              <option value="8">Ch 8: Main Memory Management</option>
+              <option value="9">Ch 9: Virtual Memory</option>
+              <option value="10">Ch 10: Storage & Disk</option>
+            </select>
+          </div>
+
+          <!-- Exam Type Filter -->
+          <div>
+            <label class="block text-[11px] font-semibold text-slate-400 mb-1">EXAM TYPE</label>
+            <select id="qbank-exam" onchange="renderQuestions()" class="w-full py-1.5 px-3 bg-slate-950 border border-slate-700/80 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-brand-500">
+              <option value="all">All Exams</option>
+              <option value="Final">Semester Final</option>
+              <option value="Mid">Mid-Term</option>
+            </select>
+          </div>
+
+          <!-- Session Filter -->
+          <div>
+            <label class="block text-[11px] font-semibold text-slate-400 mb-1">SESSION</label>
+            <select id="qbank-session" onchange="renderQuestions()" class="w-full py-1.5 px-3 bg-slate-950 border border-slate-700/80 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-brand-500">
+              <option value="all">All Sessions</option>
+              <option value="22-23">2022–2023</option>
+              <option value="21-22">2021–2022</option>
+              <option value="20-21">2020–2021</option>
+              <option value="19-20">2019–2020</option>
+              <option value="18-19">2018–2019</option>
+              <option value="17-18">2017–2018</option>
+            </select>
+          </div>
+
+          <!-- Minimum Marks -->
+          <div>
+            <label class="block text-[11px] font-semibold text-slate-400 mb-1">MIN MARKS</label>
+            <select id="qbank-marks" onchange="renderQuestions()" class="w-full py-1.5 px-3 bg-slate-950 border border-slate-700/80 rounded-lg text-xs text-slate-200 focus:outline-none focus:border-brand-500">
+              <option value="all">Any Marks</option>
+              <option value="5">5+ Marks (Major Questions)</option>
+              <option value="8">8+ Marks (Numericals / Big)</option>
+              <option value="12">12 Marks (Full Question)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Result Stats -->
+        <div class="flex items-center justify-between pt-1 border-t border-slate-800 text-xs text-slate-400">
+          <span id="qbank-count">Showing 157 questions</span>
+          <button onclick="resetQBankFilters()" class="text-brand-400 hover:text-brand-300 font-medium">Reset Filters</button>
+        </div>
+      </div>
+
+      <!-- Questions List -->
+      <div id="qbank-container" class="space-y-4">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 4: TOP 10 GUARANTEED TOPICS           -->
+    <!-- ========================================== -->
+    <section id="tab-top10" class="tab-pane hidden">
+      <div class="mb-8">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight flex items-center gap-2.5">
+          <i class="fa-solid fa-trophy text-amber-400"></i>
+          <span>Top 10 "Guaranteed" Exam Topics</span>
+        </h2>
+        <p class="text-sm text-slate-400 mt-1">Based on historical question repetition across all 6 Final Exam sessions (2017–2018 to 2022–2023). Master these 10 problem patterns to guarantee an A+ in CSE-2207.</p>
+      </div>
+
+      <div id="top10-container" class="space-y-6">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Universal PDF & Page Viewer Modal -->
+  <div id="pdf-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-2 sm:p-4">
+    <div class="bg-slate-900 border border-slate-800 w-full max-w-5xl h-[92vh] rounded-2xl flex flex-col shadow-2xl overflow-hidden">
+      
+      <!-- Modal Header -->
+      <div class="px-4 py-3 bg-slate-800/80 border-b border-slate-700/80 flex items-center justify-between shrink-0">
+        <div class="flex items-center gap-3 overflow-hidden">
+          <div class="w-8 h-8 rounded-lg bg-red-500/20 text-red-400 flex items-center justify-center shrink-0">
+            <i class="fa-solid fa-file-pdf"></i>
+          </div>
+          <div class="truncate">
+            <h4 id="modal-title" class="text-sm font-bold text-white truncate">Question Paper</h4>
+            <p id="modal-subtitle" class="text-xs text-slate-400 truncate">Page 1</p>
+          </div>
+        </div>
+
+        <!-- Action Controls -->
+        <div class="flex items-center gap-2 shrink-0">
+          <a id="modal-open-new" href="#" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-slate-700 hover:bg-slate-600 text-xs text-slate-200 transition flex items-center gap-1.5" title="Open PDF in new tab">
+            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+            <span class="hidden sm:inline">New Tab</span>
+          </a>
+          <a id="modal-download" href="#" download class="px-3 py-1.5 rounded-lg bg-brand-600 hover:bg-brand-500 text-xs text-white transition flex items-center gap-1.5 font-medium" title="Download PDF file">
+            <i class="fa-solid fa-download text-[10px]"></i>
+            <span class="hidden sm:inline">Download</span>
+          </a>
+          <button onclick="closePdfModal()" class="w-8 h-8 rounded-lg bg-slate-700/80 hover:bg-red-500 text-slate-300 hover:text-white flex items-center justify-center transition" title="Close (Esc)">
+            <i class="fa-solid fa-xmark text-sm"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal Body (Iframe) -->
+      <div class="flex-1 bg-slate-950 relative overflow-hidden flex items-center justify-center">
+        <iframe id="modal-iframe" src="" class="w-full h-full border-0" allow="fullscreen"></iframe>
+        
+        <!-- Fallback message if iframe fails or is blocked on some devices -->
+        <div id="modal-fallback" class="hidden absolute inset-0 bg-slate-950 p-6 flex flex-col items-center justify-center text-center">
+          <i class="fa-solid fa-file-pdf text-5xl text-red-400 mb-4"></i>
+          <p class="text-slate-200 font-semibold mb-2">Browser preview not supported in this frame.</p>
+          <p class="text-xs text-slate-400 max-w-md mb-4">You can open the PDF directly in a new tab or download it to view.</p>
+          <div class="flex gap-3">
+            <a id="fallback-open" href="#" target="_blank" class="px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-xs text-white font-medium transition">Open in New Tab</a>
+            <a id="fallback-download" href="#" download class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs text-slate-200 font-medium transition">Download File</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 px-4 py-2.5 rounded-xl bg-slate-800 text-white text-xs font-medium border border-slate-700 shadow-xl flex items-center gap-2 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none">
+    <i class="fa-solid fa-circle-check text-emerald-400"></i>
+    <span id="toast-text">Copied to clipboard!</span>
+  </div>
+
+  <!-- Load Data -->
+  <script src="data.js"></script>
+
+  <!-- Application Logic -->
+  <script>
+    // Theme Management
+    function initTheme() {
+      const saved = localStorage.getItem('os_hub_theme');
+      if (saved === 'light') {
+        document.documentElement.classList.remove('dark');
+      } else {
+        document.documentElement.classList.add('dark');
+      }
+    }
+    function toggleTheme() {
+      const isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('os_hub_theme', isDark ? 'dark' : 'light');
+    }
+    initTheme();
+
+    // Tab Switching
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-pane').forEach(el => el.classList.add('hidden'));
+      document.querySelectorAll('.nav-tab').forEach(el => {
+        el.className = 'nav-tab px-4 py-2 rounded-lg transition-all flex items-center gap-2 text-slate-400 hover:text-white hover:bg-slate-700/50';
+      });
+      document.querySelectorAll('.mob-tab').forEach(el => {
+        el.className = 'mob-tab flex flex-col items-center gap-1 py-1 px-3 text-slate-400';
+      });
+
+      const targetPane = document.getElementById('tab-' + tabId);
+      if (targetPane) targetPane.classList.remove('hidden');
+
+      const targetNav = document.getElementById('nav-' + tabId);
+      if (targetNav) targetNav.className = 'nav-tab px-4 py-2 rounded-lg transition-all flex items-center gap-2 bg-brand-600 text-white shadow-sm';
+
+      const targetMob = document.getElementById('mob-' + tabId);
+      if (targetMob) targetMob.className = 'mob-tab flex flex-col items-center gap-1 py-1 px-3 text-brand-400 font-semibold';
+
+      window.location.hash = tabId;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Modal Handling
+    function openPdf(url, title, page = 1) {
+      const modal = document.getElementById('pdf-modal');
+      const iframe = document.getElementById('modal-iframe');
+      const modalTitle = document.getElementById('modal-title');
+      const modalSubtitle = document.getElementById('modal-subtitle');
+      const openNew = document.getElementById('modal-open-new');
+      const download = document.getElementById('modal-download');
+      const fallbackOpen = document.getElementById('fallback-open');
+      const fallbackDownload = document.getElementById('fallback-download');
+
+      const fullUrl = url.includes('#') ? url : `${url}#page=${page}&view=FitH`;
+      
+      modalTitle.textContent = title || 'Question Paper';
+      modalSubtitle.textContent = `Target: Page ${page} &bull; ${url}`;
+      
+      openNew.href = fullUrl;
+      download.href = url.split('#')[0];
+      fallbackOpen.href = fullUrl;
+      fallbackDownload.href = url.split('#')[0];
+
+      iframe.src = fullUrl;
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closePdfModal() {
+      const modal = document.getElementById('pdf-modal');
+      const iframe = document.getElementById('modal-iframe');
+      iframe.src = '';
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      document.body.style.overflow = '';
+    }
+
+    // Escape Key to close modal
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closePdfModal();
+    });
+
+    // Toast helper
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      const text = document.getElementById('toast-text');
+      text.textContent = msg;
+      toast.classList.remove('translate-y-20', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+      setTimeout(() => {
+        toast.classList.add('translate-y-20', 'opacity-0');
+        toast.classList.remove('translate-y-0', 'opacity-100');
+      }, 2500);
+    }
+
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        showToast('Question copied to clipboard!');
+      }).catch(() => {
+        showToast('Failed to copy');
+      });
+    }
+
+    function copyQuestionById(id) {
+      if (!window.OS_DATA || !window.OS_DATA.questions) return;
+      const q = window.OS_DATA.questions.find(x => x.id === id);
+      if (q) {
+        copyToClipboard(q.full_text);
+      }
+    }
+
+    // Render README Markdown
+    function renderReadme() {
+      const container = document.getElementById('readme-container');
+      if (!window.OS_DATA || !window.OS_DATA.readme) {
+        container.innerHTML = '<p class="text-red-400">README data not found.</p>';
+        return;
+      }
+      
+      // Parse markdown using marked.js
+      container.innerHTML = marked.parse(window.OS_DATA.readme);
+
+      // Render math using KaTeX auto-render
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(container, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: '\(', right: '\)', display: false},
+            {left: '\[', right: '\]', display: true}
+          ],
+          throwOnError: false
+        });
+      }
+
+      // Intercept PDF links to open in modal
+      container.querySelectorAll('a').forEach(link => {
+        const href = link.getAttribute('href');
+        if (href && href.endsWith('.pdf') || (href && href.includes('.pdf#page='))) {
+          link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const pageMatch = href.match(/#page=(\d+)/);
+            const pageNum = pageMatch ? pageMatch[1] : 1;
+            openPdf(href, link.textContent || 'Exam PDF', pageNum);
+          });
+        }
+      });
+    }
+
+    // Render Question Papers (Tab 2)
+    let currentPaperCat = 'all';
+    function filterPapers(cat) {
+      currentPaperCat = cat;
+      document.querySelectorAll('.paper-filter-btn').forEach(btn => {
+        if (btn.dataset.cat === cat) {
+          btn.className = 'paper-filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-brand-600 text-white';
+        } else {
+          btn.className = 'paper-filter-btn px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700';
+        }
+      });
+      renderPapers();
+    }
+
+    function renderPapers() {
+      const grid = document.getElementById('papers-grid');
+      const search = (document.getElementById('paper-search-input').value || '').toLowerCase();
+      const session = document.getElementById('paper-session-select').value;
+
+      const filtered = (window.OS_DATA.manifest || []).filter(item => {
+        if (currentPaperCat !== 'all' && item.category !== currentPaperCat) return false;
+        if (session !== 'all' && item.session !== session) return false;
+        if (search) {
+          const matchStr = `${item.exam_name} ${item.session} ${item.teacher} ${item.category}`.toLowerCase();
+          if (!matchStr.includes(search)) return false;
+        }
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        grid.innerHTML = '<div class="col-span-full py-16 text-center text-slate-500">No question papers match your filter criteria.</div>';
+        return;
+      }
+
+      grid.innerHTML = filtered.map(item => {
+        let badgeColor = 'bg-indigo-500/20 text-indigo-300 border-indigo-500/30';
+        let badgeText = item.category;
+        if (item.category === 'Mid') {
+          badgeColor = 'bg-amber-500/20 text-amber-300 border-amber-500/30';
+          badgeText = 'Mid-Term';
+        } else if (item.category === 'Lab_Final') {
+          badgeColor = 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30';
+          badgeText = 'Lab Final';
+        } else {
+          badgeText = 'Final Exam';
+        }
+
+        return `
+          <div class="bg-slate-900/80 border border-slate-800 hover:border-slate-700 rounded-2xl p-5 shadow-lg transition-all duration-200 flex flex-col justify-between group">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="text-[11px] font-semibold px-2.5 py-0.5 rounded-full border ${badgeColor}">
+                  ${badgeText}
+                </span>
+                <span class="text-xs font-mono text-slate-400 bg-slate-800 px-2 py-0.5 rounded-md">
+                  ${item.session}
+                </span>
+              </div>
+              <h3 class="text-base font-bold text-white group-hover:text-brand-300 transition line-clamp-1 mb-1">
+                ${item.exam_name}
+              </h3>
+              <p class="text-xs text-slate-400 mb-3 flex items-center gap-1.5">
+                <i class="fa-solid fa-chalkboard-user text-slate-500 text-[10px]"></i>
+                <span class="truncate">${item.teacher}</span>
+              </p>
+              <div class="flex items-center gap-3 text-[11px] text-slate-500 pb-3 border-b border-slate-800/80 mb-4">
+                <span><i class="fa-solid fa-file-lines mr-1"></i>PDF Format</span>
+                ${item.file_size ? `<span>&bull;</span><span>${item.file_size}</span>` : ''}
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2 pt-1">
+              <button onclick="openPdf('${item.pdf_path}', '${item.exam_name} (${item.session})', 1)" class="flex-1 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-white text-xs font-semibold flex items-center justify-center gap-1.5 transition shadow-sm">
+                <i class="fa-solid fa-eye text-xs"></i>
+                <span>View Online</span>
+              </button>
+              <a href="${item.pdf_path}" download class="w-9 h-9 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white flex items-center justify-center border border-slate-700 text-xs transition" title="Download PDF">
+                <i class="fa-solid fa-download"></i>
+              </a>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Render Question Bank (Tab 3)
+    function renderQuestions() {
+      const container = document.getElementById('qbank-container');
+      const countEl = document.getElementById('qbank-count');
+      const search = (document.getElementById('qbank-search').value || '').toLowerCase();
+      const chapter = document.getElementById('qbank-chapter').value;
+      const exam = document.getElementById('qbank-exam').value;
+      const session = document.getElementById('qbank-session').value;
+      const marks = document.getElementById('qbank-marks').value;
+
+      const filtered = (window.OS_DATA.questions || []).filter(q => {
+        if (chapter !== 'all' && q.chapter_num.toString() !== chapter) return false;
+        if (exam !== 'all' && q.exam !== exam) return false;
+        if (session !== 'all' && q.session !== session) return false;
+        if (marks !== 'all' && parseFloat(q.marks) < parseFloat(marks)) return false;
+        if (search) {
+          const text = `${q.full_text} ${q.title} ${q.exam_label} ${q.chapter_title}`.toLowerCase();
+          if (!text.includes(search)) return false;
+        }
+        return true;
+      });
+
+      countEl.textContent = `Showing ${filtered.length} of ${window.OS_DATA.questions.length} questions`;
+
+      if (filtered.length === 0) {
+        container.innerHTML = '<div class="py-16 text-center text-slate-500">No questions match your filter criteria.</div>';
+        return;
+      }
+
+      container.innerHTML = filtered.map(q => {
+        return `
+          <div class="bg-slate-900/70 border border-slate-800/90 hover:border-slate-700 rounded-2xl p-5 shadow-sm transition space-y-3">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <div class="flex flex-wrap items-center gap-2">
+                <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-brand-500/20 text-brand-300 border border-brand-500/30">
+                  Ch ${q.chapter_num}: ${q.chapter_title}
+                </span>
+                <span class="text-xs font-mono text-slate-300 bg-slate-800 px-2 py-0.5 rounded-md border border-slate-700">
+                  ${q.exam_label}
+                </span>
+                <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-md border border-emerald-500/20">
+                  ${q.marks} Marks
+                </span>
+              </div>
+              <span class="text-[11px] font-mono text-slate-500">ID: ${q.id}</span>
+            </div>
+
+            <div class="text-sm text-slate-200 leading-relaxed font-normal whitespace-pre-line pl-1 border-l-2 border-brand-500/40">
+              ${q.full_text}
+            </div>
+
+            <div class="flex items-center justify-end gap-2 pt-2 border-t border-slate-800/60">
+              <button onclick="copyToClipboard(\`${q.full_text.replace(/`/g, '\\`')}\`)" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-medium flex items-center gap-1.5 transition">
+                <i class="fa-regular fa-copy text-xs"></i>
+                <span>Copy</span>
+              </button>
+              <button onclick="openPdf('${q.pdf_path}', '${q.exam_label}', ${q.page})" class="px-3 py-1.5 rounded-lg bg-brand-600/90 hover:bg-brand-500 text-white text-xs font-medium flex items-center gap-1.5 transition">
+                <i class="fa-solid fa-file-pdf text-xs"></i>
+                <span>View in Paper (p.${q.page})</span>
+              </button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function resetQBankFilters() {
+      document.getElementById('qbank-search').value = '';
+      document.getElementById('qbank-chapter').value = 'all';
+      document.getElementById('qbank-exam').value = 'all';
+      document.getElementById('qbank-session').value = 'all';
+      document.getElementById('qbank-marks').value = 'all';
+      renderQuestions();
+    }
+
+    // Render Top 10 Guaranteed Topics (Tab 4)
+    function renderTop10() {
+      const container = document.getElementById('top10-container');
+      if (!window.OS_DATA || !window.OS_DATA.top10) return;
+
+      container.innerHTML = window.OS_DATA.top10.map(t => {
+        return `
+          <div class="bg-slate-900/70 border border-slate-800 rounded-2xl p-6 shadow-lg transition space-y-4">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-amber-400 flex items-center justify-center font-extrabold text-xl shrink-0">
+                #${t.rank}
+              </div>
+              <div class="flex-1">
+                <h3 class="text-lg font-bold text-white mb-1.5">${t.title}</h3>
+                <p class="text-sm text-slate-300 leading-relaxed">${t.description}</p>
+              </div>
+            </div>
+
+            <div class="space-y-2 text-xs">
+              <div class="bg-slate-950/60 p-3 rounded-xl border border-slate-800/80">
+                <span class="font-semibold text-slate-400 block mb-1">HISTORICAL APPEARANCES:</span>
+                <span class="text-indigo-300 font-mono">${t.appearances}</span>
+              </div>
+              <div class="bg-brand-950/30 p-3 rounded-xl border border-brand-800/40 text-slate-300">
+                <span class="font-semibold text-brand-300 block mb-1"><i class="fa-solid fa-lightbulb text-amber-400 mr-1.5"></i>EXAM STRATEGY & TIPS:</span>
+                <span>${t.strategy}</span>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Initialization
+    window.addEventListener('DOMContentLoaded', () => {
+      // Check URL hash for initial tab
+      const hash = window.location.hash.replace('#', '');
+      if (['guide', 'papers', 'questions', 'top10'].includes(hash)) {
+        switchTab(hash);
+      } else {
+        switchTab('guide');
+      }
+
+      renderReadme();
+      renderPapers();
+      renderQuestions();
+      renderTop10();
+    });
+  </script>
+</body>
+</html>

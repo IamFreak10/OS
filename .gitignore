@@ -1,0 +1,14 @@
+# Security: Sensitive session cookies
+onebyzeroedu_cookies_backup.json
+*.cookie
+*.cookies
+
+# Dependencies
+node_modules/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.pyc
+__pycache__/
+*.log
